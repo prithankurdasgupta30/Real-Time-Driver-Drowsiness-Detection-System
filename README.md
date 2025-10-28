@@ -16,7 +16,7 @@ If prolonged eye closure is detected, an **alert sound** is triggered to prevent
 
 ## 🛠️ Tech Stack
 - **Programming Language:** Python  
-- **Libraries Used:** OpenCV, TensorFlow/Keras, NumPy, playsound  
+- **Libraries Used:** OpenCV, TensorFlow/Keras, NumPy  
 - **Model File:** `drowsiness.h5`  
 - **Dataset Used:** [MRL Eye Dataset (Kaggle)](https://www.kaggle.com/datasets/imadeddinedjerarda/mrl-eye-dataset)
 
@@ -26,7 +26,7 @@ If prolonged eye closure is detected, an **alert sound** is triggered to prevent
 1. The system captures live video feed from your webcam.  
 2. Face and eyes are detected using Haar Cascade classifiers.  
 3. The trained CNN model predicts whether eyes are open or closed.  
-4. If eyes remain closed for a certain duration, the system plays an alert sound.  
+4. If eyes remain closed for a certain duration, the system sends an alert signal 
 
 ---
 
